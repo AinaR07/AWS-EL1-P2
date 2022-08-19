@@ -1,16 +1,17 @@
+import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Main from "./components/Main";
-import Second from "./components/Second";
+import Test from './components/new';
+
+
 
 function App() {
-  return(
-    <Router>
-      <Routes>
-        <Route path='/' element={ <Main/> }/>
-        <Route path='/Second' element={ <Second/> }/>
-      </Routes>
-    </Router>
+  return (
+
+    <div>
+      <Test /> 
+    </div>
+    
+
   );
 }
 
